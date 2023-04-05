@@ -21,7 +21,7 @@ spec:
         app: ecsdemo-nodejs
     spec:
       containers:
-      - image: public.ecr.aws/w0v8v3o0/test-project-ecr-321@sha256:8aebe4165bc951fc5b93ae9f45966ab8dda8ab9f474fde8eea88c5c9ea4b87b8
+      - image: public.ecr.aws/w0v8v3o0/test-project-ecr-321:v1
         imagePullPolicy: Always
         name: ecsdemo-nodejs
         ports:
